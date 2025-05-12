@@ -1,6 +1,7 @@
 import Mongoose from "mongoose";
 import * as UserRepository from "./auth.mjs";
 import { useVirtualId } from "../db/database.mjs";
+
 const postSchema = new Mongoose.Schema(
   {
     userid: { type: String, require: true },
